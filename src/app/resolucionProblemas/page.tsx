@@ -11,8 +11,8 @@ export default function MainResolution() {
       <h4 className={styles.h4}>
         Diferencia entre resolución aritmética y algebraica
       </h4>
-      <div className={styles.example}>
-        <h4 className={styles.h4_example}>Enunciado:</h4>
+      <div className={styles.ejemplo}>
+        <h4 className={styles.h4_ejemplo}>Enunciado:</h4>
         <p>
           La edad de A y B suman 48 años. Si la edad de B es 5 veces la edad de
           A, ¿qué edad tiene cada uno?
@@ -20,8 +20,8 @@ export default function MainResolution() {
         <p style={{ textAlign: "left" }}>
           <b>METODO ARITMETICO</b>
         </p>
-        <div className="div_example_separation">
-          <ul className="ul_example_separation">
+        <div className="div_separacion_ejemplo">
+          <ul className="ul_separacion_ejemplo">
             <li className={styles.li_example_resolution}>
               Edad de A más edad de B = 48 años.
             </li>
@@ -45,8 +45,8 @@ export default function MainResolution() {
         <p style={{ textAlign: "left" }}>
           <b>METODO ALGEBRAICO</b>
         </p>
-        <div className="div_example_separation">
-          <ul className="ul_example_separation">
+        <div className="div_separacion_ejemplo">
+          <ul className="ul_separacion_ejemplo">
             <li className={styles.li_example_resolution}>
               Cómo la edad de A es desconocida la represento cómo X.
             </li>

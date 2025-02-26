@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/SideBarsMain.tsx", "src/app/exercises1/page.jsx"  ],
+, "src/components/SideBarsMain.tsx", "src/app/ejercicio1/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

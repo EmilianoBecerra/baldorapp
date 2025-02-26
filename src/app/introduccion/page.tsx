@@ -7,7 +7,7 @@ export default function Introduction() {
   return (
     <div className="main_layout">
       <h2 className={styles.h2}>ALGEBRA</h2>
-      <article className="article">
+      <article className="articulo">
         <p>
           Es la rama de la Matemática que estudia la cantidad considerada del
           modo mas general posible.
@@ -16,13 +16,13 @@ export default function Introduction() {
       <h2 className={styles.h2}>
         CARACTER DEL ALGEBRA Y SU DIFERENCIA CON LA ARITMETICA
       </h2>
-      <article className="article">
+      <article className="articulo">
         <p>
           En <strong>Artimética</strong> las cantidades se representan por{" "}
           <b>números</b> que expresan valores <b>determinado</b>.
         </p>
-        <div className={styles.example}>
-          <h4 className={styles.h4_example}>Ejemplo:</h4>
+        <div className={styles.ejemplo}>
+          <h4 className={styles.h4_ejemplo}>Ejemplo:</h4>
           <p>
             20 expresa un sólo valor: <strong>Veinte</strong>.
           </p>
@@ -32,13 +32,13 @@ export default function Introduction() {
           cantidades se representan por medio de <b>letras</b>, las cuales
           pueden representar <b>todos los valores.</b>
         </p>
-        <div className={styles.example}>
-          <h4 className={styles.h4_example}>Ejemplo:</h4>
+        <div className={styles.ejemplo}>
+          <h4 className={styles.h4_ejemplo}>Ejemplo:</h4>
           <p>
             <b>a</b> representa el <b>valor que nosotros le asignemos</b> por lo
             tanto puede representar el 20, o más de 20 o cualquier otro número.
           </p>
-          <p className={styles.note}>
+          <p className={styles.nota}>
             <strong>Aclaración:</strong> Cuando en un problema asignamos el
             valor determinado a una letra, esa letra no puede representar (en el
             mismo problema) otro valor distinto del que le hemos asignado.
@@ -46,13 +46,13 @@ export default function Introduction() {
         </div>
       </article>
       <h2 className={styles.h2}>NOTACION ALGEBRAICA</h2>
-      <article className="article">
+      <article className="articulo">
         <p>
           {" "}
           Los <b>símbolos</b> usados en Algebra para represetar las cantidades
           son los <b>números</b> y las <b>letras</b>.
         </p>
-        <ul className={styles.introductionList}>
+        <ul className={styles.lista_introduccion}>
           <li>
             Los <strong>números</strong> se emplean para representar cantidades
             conocidas y determinadas.
@@ -68,13 +68,13 @@ export default function Introduction() {
         </ul>
       </article>
       <h2 className={styles.h2}>FORMULAS</h2>
-      <article className="article">
+      <article className="articulo">
         <p>
           <strong>Fórmula algebraica</strong> es la representación, por medio de
           letras, de una regla o de un principio general.
         </p>
-        <div className={styles.example}>
-          <h4 className={styles.h4_example}>Fórmula:</h4>
+        <div className={styles.ejemplo}>
+          <h4 className={styles.h4_ejemplo}>Fórmula:</h4>
           <p>
             La Geometría enseña que el área de un rectángulo <b>es</b> igual al
           </p>
@@ -90,8 +90,8 @@ export default function Introduction() {
           cualquier rectángulo y sólo bastará con sustituir <b>b</b> y <b>h </b>
           de la fórmula por los valores en el caso dado.
         </p>
-        <div className={styles.example}>
-          <h4 className={styles.h4_example}>Ejemplo:</h4>
+        <div className={styles.ejemplo}>
+          <h4 className={styles.h4_ejemplo}>Ejemplo:</h4>
           <p>
             Así, la base de un rectángulo de 3m. y la altura 2m., su área será:
           </p>
@@ -99,22 +99,22 @@ export default function Introduction() {
         </div>
       </article>
       <h2 className={styles.h2}>SIGNOS DEL ALGEBRA</h2>
-      <article className="article">
+      <article className="articulo">
         <p>Los signos empleados en Algebra son de tres clases:</p>
-        <ul className={styles.introductionList}>
+        <ul className={styles.lista_introduccion}>
           <li>
             <strong>Signos de Operación</strong>
           </li>
           <p>Se verifican las mismas operaciones que en Aritmética:</p>
           <ul>
-            <li className={styles.introductionLi}>Suma (+)</li>
-            <li className={styles.introductionLi}>Resta (-)</li>
-            <li className={styles.introductionLi}>Multiplicación (*)</li>
-            <li className={styles.introductionLi}>División (/)</li>
-            <li className={styles.introductionLi}>
+            <li className={styles.li_introduccion}>Suma (+)</li>
+            <li className={styles.li_introduccion}>Resta (-)</li>
+            <li className={styles.li_introduccion}>Multiplicación (*)</li>
+            <li className={styles.li_introduccion}>División (/)</li>
+            <li className={styles.li_introduccion}>
               Elevación de Potencias (a<sup>x</sup>)
             </li>
-            <li className={styles.introductionLi}>Extracción de Raíces (√a)</li>
+            <li className={styles.li_introduccion}>Extracción de Raíces (√a)</li>
           </ul>
           <li>
             <strong>Signos de Relación</strong>
@@ -123,9 +123,9 @@ export default function Introduction() {
             Se emplean para indicar la relación que existe entre dos cantidades
           </p>
           <ul>
-            <li className={styles.introductionLi}>Igualdad (=)</li>
-            <li className={styles.introductionLi}>Mayor que ({">"})</li>
-            <li className={styles.introductionLi}>Menor que ({"<"})</li>
+            <li className={styles.li_introduccion}>Igualdad (=)</li>
+            <li className={styles.li_introduccion}>Mayor que ({">"})</li>
+            <li className={styles.li_introduccion}>Menor que ({"<"})</li>
           </ul>
           <li>
             <strong>Signos de Agrupación</strong>
@@ -135,17 +135,17 @@ export default function Introduction() {
             primero.
           </p>
           <ul>
-            <li className={styles.introductionLi}>
+            <li className={styles.li_introduccion}>
               Paréntesis ordinario ( () )
             </li>
-            <li className={styles.introductionLi}>Corchetes ( [ ] )</li>
-            <li className={styles.introductionLi}>Llaves ( {"{ }"} )</li>
-            <li className={styles.introductionLi}>Barra o vínculo ( | | )</li>
+            <li className={styles.li_introduccion}>Corchetes ( [ ] )</li>
+            <li className={styles.li_introduccion}>Llaves ( {"{ }"} )</li>
+            <li className={styles.li_introduccion}>Barra o vínculo ( | | )</li>
           </ul>
         </ul>
       </article>
       <h2 className={styles.h2}> CANTIDADES POSITIVAS Y NEGATIVAS </h2>
-      <article className="article">
+      <article className="articulo">
         <p>
           En algebra, cuando se estudian cantidades que pueden tomarse en{" "}
           <b>dos sentidos opuestos </b>o que son de{" "}
@@ -161,12 +161,12 @@ export default function Introduction() {
           <b>signo + </b> y las <b>deudas </b> y el camino recorrido a la{" "}
           <b>izquierda o hacia abajo de un punto </b> con el <b>signo -</b>.
         </p>
-        <Link href={"exercises1"}>
-          <button className="button_exercises">Ejercicios {">>>"}</button>
+        <Link href={"ejercicio1"}>
+          <button className="boton_ejercicios">Ejercicios {">>>"}</button>
         </Link>
       </article>
       <h2 className={styles.h2}>CERO</h2>
-      <article className="article">
+      <article className="articulo">
         <p>
           Significa la ausencia de cantidad. Así, representar el estado
           económico de una persona por 0, equivale a decir que no tiene ni haber

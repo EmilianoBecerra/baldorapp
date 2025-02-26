@@ -7,15 +7,15 @@ export default function SideBarsMain() {
   const url = ["introduccion", "resolucionProblemas"];
 
   return (
-    <div className="sideBars">
-      <div className={styles.ulModules}>
+    <div className="sidebar">
+      <div className={styles.ul_modulos}>
         {modules.map((module, index) => {
           return (
             <Link
             key={"pepe"+index}
               href={url[index]}
               replace={false}
-              className={styles.linkModules}
+              className={styles.link_modulos}
             >
               {module}
             </Link>

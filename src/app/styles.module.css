@@ -3,7 +3,7 @@
   text-decoration-line: none;
 }
 
-.linkModules {
+.link_modulos {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -15,7 +15,7 @@
   margin-top: 2px;
 }
 
-.example {
+.ejemplo {
   margin: 15px;
   background-color: var(--background-example);
   background-size: cover;
@@ -26,22 +26,22 @@
   width: 90%;
 }
 
-.note {
+.nota {
   text-align: left;
   margin-top: 10px;
   font-size: 13px;
 }
 
-.introductionList {
+.lista_introduccion {
   margin: 0px 0px 5px 50px;
 }
 
-.introductionLi {
+.li_introduccion {
   list-style-type: "- ";
   margin: 0px 0px 5px 50px;
 }
 
-.ulModules {
+.ul_modulos {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -55,7 +55,7 @@
   text-decoration: underline;
 }
 
-.h4_example {
+.h4_ejemplo {
   text-align: left;
   font-size: 13px;
 }
@@ -71,7 +71,7 @@
   margin-top: 7px;
 }
 
-.input_exercise {
+.input_ejercicio {
   margin: 10px;
   padding: 5px;
   border-radius: 5px;
@@ -79,10 +79,11 @@
   text-align: center;
 }
 
-.button_exercise {
+.boton_ejercicio {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 
@@ -90,3 +91,10 @@
   margin: 10px 0px 0px 0px;
 }
 
+
+.div_ejercicios_triple{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}

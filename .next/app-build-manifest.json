@@ -13,42 +13,42 @@
       "static/chunks/517-21b4279ef395418a.js",
       "static/chunks/main-app-df863b29312377f0.js",
       "static/css/b2f7e74f8004b14e.css",
-      "static/css/73aa89b3d506fc71.css",
+      "static/css/a677390cfecb144d.css",
       "static/chunks/173-2e1b10b5fe49dfd2.js",
-      "static/chunks/app/layout-393ae4eba552e573.js"
+      "static/chunks/app/layout-ac6010c09bc68fc4.js"
     ],
-    "/exercises1/page": [
+    "/ejercicio1/page": [
       "static/chunks/webpack-51f45f3cc24ba314.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
       "static/chunks/517-21b4279ef395418a.js",
       "static/chunks/main-app-df863b29312377f0.js",
-      "static/css/73aa89b3d506fc71.css",
-      "static/chunks/app/exercises1/page-cd9cf884f1be68fe.js"
-    ],
-    "/resolucionProblemas/page": [
-      "static/chunks/webpack-51f45f3cc24ba314.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-21b4279ef395418a.js",
-      "static/chunks/main-app-df863b29312377f0.js",
-      "static/css/73aa89b3d506fc71.css",
-      "static/chunks/app/resolucionProblemas/page-160c610dab14bea0.js"
+      "static/css/a677390cfecb144d.css",
+      "static/chunks/app/ejercicio1/page-04d7dcbc349a0682.js"
     ],
     "/introduccion/page": [
       "static/chunks/webpack-51f45f3cc24ba314.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
       "static/chunks/517-21b4279ef395418a.js",
       "static/chunks/main-app-df863b29312377f0.js",
-      "static/css/73aa89b3d506fc71.css",
+      "static/css/a677390cfecb144d.css",
       "static/chunks/173-2e1b10b5fe49dfd2.js",
-      "static/chunks/app/introduccion/page-9d6d5eae603d750f.js"
+      "static/chunks/app/introduccion/page-8e167b9631fc8148.js"
     ],
     "/page": [
       "static/chunks/webpack-51f45f3cc24ba314.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
       "static/chunks/517-21b4279ef395418a.js",
       "static/chunks/main-app-df863b29312377f0.js",
-      "static/css/73aa89b3d506fc71.css",
+      "static/css/a677390cfecb144d.css",
       "static/chunks/app/page-90698522de5f19ab.js"
+    ],
+    "/resolucionProblemas/page": [
+      "static/chunks/webpack-51f45f3cc24ba314.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-21b4279ef395418a.js",
+      "static/chunks/main-app-df863b29312377f0.js",
+      "static/css/a677390cfecb144d.css",
+      "static/chunks/app/resolucionProblemas/page-e0cf6eb51708b790.js"
     ]
   }
 }

@@ -41,19 +41,20 @@ p {
   background-position: center;
 }
 
-.sideBars {
-  border: var(--border-color-layout);
-  margin: var(--border-margin-layout);
-  border-radius: var(--border-radius-layout);
-  margin-top: 0px;
-  width: 20%;
-  height: 200px;
+.sidebar {
   display: flex;
   justify-content: center;
   float: left;
+  border-right: var(--border-color-layout);
+  margin: var(--border-margin-layout);
+  margin-top: 0px;
+  width: 15%;
+  height: 100%;
+  position: sticky;
+  top: 10px;
 }
 
-.modules {
+/* .modulos {
   text-align: center;
   height: fit-content;
   list-style-type: none;
@@ -67,14 +68,14 @@ p {
 .modules:hover {
   box-shadow: 1px 1px 1px;
   cursor: pointer;
-}
+} */
 
 .main_layout {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.div_example_separation {
+.div_separacion_ejemplo {
   width: auto;
   display: flex;
   flex-flow: column nowrap;
@@ -82,20 +83,20 @@ p {
   align-items: center;
 }
 
-.ul_example_separation {
+.ul_separacion_ejemplo {
   background-color: var(--background-example-separation);
   padding: var(--pading-border-layout);
   border-radius: var(--border-radius-layout);
 }
 
-.article {
+.articulo {
   border: var(--border-color-article);
   border-radius: var(--border-radius-layout);
   padding: var(--pading-border-layout);
   margin: var(--border-margin-layout);
 }
 
-.button_exercises {
+.boton_ejercicios {
   float: right;
   width: auto;
   margin-right: 30px;
@@ -109,11 +110,12 @@ p {
   cursor: pointer;
 }
 
-.div_exercises {
+.div_ejercicios {
   width: 90%;
+  margin: 15px;
 }
 
-.ol_exercise {
+.ol_ejercicio {
   margin-top: 20px;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -122,7 +124,7 @@ p {
   margin-bottom: 20px;
 }
 
-.div_exercise {
+.div_ejercicio {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -135,8 +137,8 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.input_exercises {
-  margin: 10px;
+.input_ejercicios {
+  margin: 15px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;

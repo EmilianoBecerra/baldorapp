@@ -1,44 +1,25 @@
 import { ChangeEvent, useState } from "react";
 import styles from "../app/styles.module.css";
 import "../app/global.css";
+import { respuestasCorrectas } from "../app/utils/datosDB";
 
-export default function InputExercise({ idAnswer, sendData }) {
-  const correctAnswer = {
-    ejercicio1: 320 - 60,
-    ejercicio2: 1170 - 1515,
-    ejercicio3: 200 + 56 - 189,
-    ejercicio4: -665 - 1178 + 2280,
-    ejercicio5: 20 - 15 + 40 - 75,
-    ejercicio6: -67 + 72 - 16 + 2,
-    ejercicio7: 220 - 78 - 81 - 93 + 41 - 59,
-    ejercicio8: -45 - 66 - 79 + 200 - 10,
-  };
-
-  const [userResponse, setUserResponse] = useState({});
-  const [response, setResponse] = useState({});
+export default function InputExercise({ idRespuesta, sendData }) {
+  const [respuestaUsuario, setRespuestaUsuario] = useState({});
   const [disabledButton, setDisabledButton] = useState(false);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>, id: string) => {
-    setUserResponse({ ...userResponse, [id]: e.target.value });
-    sendData((prevalue: string[]) => ({
-      ...prevalue,
+    setRespuestaUsuario({ ...respuestaUsuario, [id]: e.target.value });
+    sendData((prev: string[]) => ({
+      ...prev,
       [id]: "none",
     }));
-    setResponse({
-      ...response,
-      [id]: "",
-    });
   };
 
-  const checkResponse = (id: string) => {
-    const uResponse = userResponse[id] || "";
-    const isTrue = +uResponse === correctAnswer[id];
-    setResponse({
-      ...response,
-      [id]: isTrue ? "✅ Correcto" : "❌ Incorrecto",
-    });
-    sendData((prevalue: string[]) => ({
-      ...prevalue,
+  const corroborarRespuesta = (id: string) => {
+    const urespuesta = respuestaUsuario[id] || "";
+    const isTrue = +urespuesta === respuestasCorrectas[id];
+    sendData((prev: string[]) => ({
+      ...prev,
       [id]: isTrue ? "correcto" : "incorrecto",
     }));
     setDisabledButton(isTrue);
@@ -51,25 +32,23 @@ export default function InputExercise({ idAnswer, sendData }) {
   };
 
   return (
-    <div className="input_exercises">
+    <div className="input_ejercicios">
       <input
         type="text"
         required
-        value={userResponse[idAnswer] || ""}
-        onChange={(e) => handleChange(e, idAnswer)}
+        value={respuestaUsuario[idRespuesta] || ""}
+        onChange={(e) => handleChange(e, idRespuesta)}
         onKeyDown={handleKeyDown}
-        className={styles.input_exercise}
+        className={styles.input_ejercicio}
+        disabled={disabledButton}
       />
       <button
-        className={styles.button_exercise}
-        onClick={() => checkResponse(idAnswer)}
+        className={styles.boton_ejercicio}
+        onClick={() => corroborarRespuesta(idRespuesta)}
         disabled={disabledButton}
       >
         Responder
       </button>
-      <p className={styles.p_result}>
-        {response[idAnswer] ? response[idAnswer] : "   "}
-      </p>
     </div>
   );
 }
