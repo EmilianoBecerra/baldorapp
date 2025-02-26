@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import SideBarsMain from "../components/SideBarsMain";
 import Link from "next/link";
 
-export const metada: Metadata = {
+export const metadata: Metadata = {
   title: "Baldorapp!",
   description: "Bienvenidos a Baldorapp!",
 };
