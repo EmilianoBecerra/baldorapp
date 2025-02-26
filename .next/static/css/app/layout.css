@@ -1,0 +1,279 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Geist","arguments":[{"subsets":["latin"]}],"variableName":"geist"} ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin-ext */
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/ba015fad6dcf6784-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/569ce4b8f30dc480-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'Geist Fallback';src: local("Arial");ascent-override: 95.94%;descent-override: 28.16%;line-gap-override: 0.00%;size-adjust: 104.76%
+}.__className_4d318d {font-family: 'Geist', 'Geist Fallback';font-style: normal
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/global.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --border-color-layout: 1px solid rgb(202, 202, 202);
+  --border-margin-layout: 12px 20px;
+  --pading-border-layout: 10px;
+  --border-radius-layout: 10px;
+  --border-color-modules: 1px solid black;
+  --fontSize-h2: 18px;
+  --fontColor-h2: rgb(201, 50, 201);
+  --background-example: rgb(223, 223, 223);
+  --background-example-separation: rgb(173, 173, 173);
+  --border-color-article: 1px solid rgba(0, 0, 0, 0.102);
+  --color-button-exer: rgb(106, 175, 198);
+  --color-card-exercise: rgb(39, 39, 131);
+  --color-card-correct: #4b8f60;
+  --color-card-inCorrect: #cb565691;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.header {
+  border: var(--border-color-layout);
+  border-radius: var(--border-radius-layout);
+  margin: var(--border-margin-layout);
+  margin-bottom: 0px;
+  padding: var(--pading-border-layout);
+  background-image: url(/_next/static/media/headerBackground.5e72fd53.jpg);
+  background-position: center;
+}
+
+.sideBars {
+  border: var(--border-color-layout);
+  margin: var(--border-margin-layout);
+  border-radius: var(--border-radius-layout);
+  margin-top: 0px;
+  width: 20%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.modules {
+  text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  list-style-type: none;
+  border: var(--border-color-modules);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.modules:hover {
+  box-shadow: 1px 1px 1px;
+  cursor: pointer;
+}
+
+.main_layout {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.div_example_separation {
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul_example_separation {
+  background-color: var(--background-example-separation);
+  padding: var(--pading-border-layout);
+  border-radius: var(--border-radius-layout);
+}
+
+.article {
+  border: var(--border-color-article);
+  border-radius: var(--border-radius-layout);
+  padding: var(--pading-border-layout);
+  margin: var(--border-margin-layout);
+}
+
+.button_exercises {
+  float: right;
+  width: auto;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: white;
+  color: var(--color-button-exer);
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: var(--border-radius-layout);
+  cursor: pointer;
+}
+
+.div_exercises {
+  width: 90%;
+}
+
+.ol_exercise {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.div_exercise {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: var(--border-color-modules);
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  border-radius: var(--border-radius-layout);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input_exercises {
+  margin: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.correcto {
+  background-color: #4b8f61d4;
+}
+
+.incorrecto {
+  background-color: #cb5656d5;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/styles.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.styles_linkH1__GyreR {
+  color: black;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.styles_linkModules__0eRZb {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+.styles_example__FXPfs {
+  margin: 15px;
+  background-color: var(--background-example);
+  background-size: cover;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  width: 90%;
+}
+
+.styles_note__U8tCQ {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.styles_introductionList__dLdiU {
+  margin: 0px 0px 5px 50px;
+}
+
+.styles_introductionLi__ws9Rn {
+  list-style-type: "- ";
+  margin: 0px 0px 5px 50px;
+}
+
+.styles_ulModules__yuf8e {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.styles_h2__8ZXVD {
+  font-size: var(--fontSize-h2);
+  color: var(--fontColor-h2);
+  text-decoration: underline;
+}
+
+.styles_h4_example__2Vb6I {
+  text-align: left;
+  font-size: 13px;
+}
+
+.styles_h4__U4hZi {
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.styles_li_example_resolution__h_UJw {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 7px;
+}
+
+.styles_input_exercise__IE_Kk {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.styles_button_exercise__0oBZA {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.styles_p_result__dUj4G {
+  margin: 10px 0px 0px 0px;
+}
+
+

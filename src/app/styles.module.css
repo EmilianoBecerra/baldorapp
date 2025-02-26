@@ -1,0 +1,92 @@
+.linkH1 {
+  color: black;
+  text-decoration-line: none;
+}
+
+.linkModules {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+.example {
+  margin: 15px;
+  background-color: var(--background-example);
+  background-size: cover;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  width: 90%;
+}
+
+.note {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.introductionList {
+  margin: 0px 0px 5px 50px;
+}
+
+.introductionLi {
+  list-style-type: "- ";
+  margin: 0px 0px 5px 50px;
+}
+
+.ulModules {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.h2 {
+  font-size: var(--fontSize-h2);
+  color: var(--fontColor-h2);
+  text-decoration: underline;
+}
+
+.h4_example {
+  text-align: left;
+  font-size: 13px;
+}
+
+.h4 {
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.li_example_resolution {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 7px;
+}
+
+.input_exercise {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button_exercise {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.p_result {
+  margin: 10px 0px 0px 0px;
+}
+
